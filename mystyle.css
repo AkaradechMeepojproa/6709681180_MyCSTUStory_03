@@ -209,12 +209,14 @@ footer p{
     
     .introduce{
         justify-content: space-between;
+        margin: 20px;
     }
 
     .introduce_text{
         flex-direction: column;
         text-align: center;
-        width: 40%;
+        width: 30%;
+        margin: 15px;
     }
 
     .video{
@@ -235,4 +237,29 @@ footer p{
     .card{
         width: 80%;
     }
+}
+
+@media screen and (max-width: 640px) {
+    header{
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 50px
+    }
+
+    .introduce{
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .video{
+        width: auto;
+    }
+
+    .introduce_text{
+        width: auto;
+    }
+
 }
